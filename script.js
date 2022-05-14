@@ -12,10 +12,10 @@ names[9] = "jim";
 
 for (var i = 0; i < names.length; i++){
     if (names[i].charAt(0)==="J" || names[i].charAt(0)==="j"){
-        console.log("Goodbye" + names[i])
+        document.write("Goodbye" + names[i] + "<br>");
     }
     else{
-        console.log("Hello" + names[i])
+        document.write("Hello" + names[i] + "<br>");
 
     }
 }
